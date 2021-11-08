@@ -51,6 +51,7 @@ public class CellsActivity extends Activity implements OnClickListener {
             for (int j = 0; j < WIDTH; j++) {
                 if (clicked[i][j] == 0) {
                     checking_result = false;
+                    break;
                 }
             }
         return checking_result;
