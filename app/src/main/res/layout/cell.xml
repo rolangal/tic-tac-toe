@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Button xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="72dp"
-    android:layout_height="72dp"
+    android:layout_width="125dp"
+    android:layout_height="125dp"
     android:background="@android:color/white"
     
     android:textColor="@android:color/black"
