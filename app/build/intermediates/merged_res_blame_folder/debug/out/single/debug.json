@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "C:\\Users\\galiu\\AndroidStudioProjects\\Cells_my\\app\\build\\intermediates\\merged_res\\debug\\drawable_krestik.png.flat",
+        "source": "C:\\Users\\galiu\\AndroidStudioProjects\\Cells_my\\app\\src\\main\\res\\drawable\\krestik.png"
+    },
+    {
+        "merged": "C:\\Users\\galiu\\AndroidStudioProjects\\Cells_my\\app\\build\\intermediates\\merged_res\\debug\\layout_game_over_screen.xml.flat",
+        "source": "C:\\Users\\galiu\\AndroidStudioProjects\\Cells_my\\app\\src\\main\\res\\layout\\game_over_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\galiu\\AndroidStudioProjects\\Cells_my\\app\\build\\intermediates\\merged_res\\debug\\layout_krestik_win_screen.xml.flat",
+        "source": "C:\\Users\\galiu\\AndroidStudioProjects\\Cells_my\\app\\src\\main\\res\\layout\\krestik_win_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\galiu\\AndroidStudioProjects\\Cells_my\\app\\build\\intermediates\\merged_res\\debug\\layout_cells.xml.flat",
+        "source": "C:\\Users\\galiu\\AndroidStudioProjects\\Cells_my\\app\\src\\main\\res\\layout\\cells.xml"
+    },
+    {
+        "merged": "C:\\Users\\galiu\\AndroidStudioProjects\\Cells_my\\app\\build\\intermediates\\merged_res\\debug\\drawable_nolik.png.flat",
+        "source": "C:\\Users\\galiu\\AndroidStudioProjects\\Cells_my\\app\\src\\main\\res\\drawable\\nolik.png"
+    },
+    {
+        "merged": "C:\\Users\\galiu\\AndroidStudioProjects\\Cells_my\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher.png.flat",
+        "source": "C:\\Users\\galiu\\AndroidStudioProjects\\Cells_my\\app\\src\\main\\res\\drawable\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\galiu\\AndroidStudioProjects\\Cells_my\\app\\build\\intermediates\\merged_res\\debug\\layout_nolik_win_screen.xml.flat",
+        "source": "C:\\Users\\galiu\\AndroidStudioProjects\\Cells_my\\app\\src\\main\\res\\layout\\nolik_win_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\galiu\\AndroidStudioProjects\\Cells_my\\app\\build\\intermediates\\merged_res\\debug\\layout_cell.xml.flat",
+        "source": "C:\\Users\\galiu\\AndroidStudioProjects\\Cells_my\\app\\src\\main\\res\\layout\\cell.xml"
+    }
+]

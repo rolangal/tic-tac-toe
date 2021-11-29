@@ -127,7 +127,7 @@ public class CellsActivity extends Activity implements OnClickListener {
                 public void run() {
                     setContentView(game_over_screen);
                 }
-            }, 250);
+            }, 100);
         } else if (whoWin(HEIGHT, WIDTH, clicked, 1) == 1) {
             final Handler handler = new Handler();
             handler.postDelayed(new Runnable() {
@@ -135,7 +135,7 @@ public class CellsActivity extends Activity implements OnClickListener {
                 public void run() {
                     setContentView(krestik_win_screen);
                 }
-            }, 250);
+            }, 100);
         } else if (whoWin(HEIGHT, WIDTH, clicked, 2) == 2) {
             final Handler handler = new Handler();
             handler.postDelayed(new Runnable() {
@@ -143,7 +143,7 @@ public class CellsActivity extends Activity implements OnClickListener {
                 public void run() {
                     setContentView(nolik_win_screen);
                 }
-            }, 250);
+            }, 100);
         }
     }
 
