@@ -23,7 +23,7 @@ public class CellsActivity extends Activity implements OnClickListener {
     private Button[][] cells;
     private int schet = 0;
     final int WIDTH = 3;
-    final int HEIGHT = WIDTH;
+    final int HEIGHT = 3;
     private int[][] clicked = new int[WIDTH][HEIGHT];
 
     @Override
@@ -46,15 +46,15 @@ public class CellsActivity extends Activity implements OnClickListener {
     }
 
     public boolean checking(int[][] clicked) {
-        boolean checking_result = true;
+        boolean checkingResult = true;
         for (int i = 0; i < HEIGHT; i++)
             for (int j = 0; j < WIDTH; j++) {
                 if (clicked[i][j] == 0) {
-                    checking_result = false;
+                    checkingResult = false;
                     break;
                 }
             }
-        return checking_result;
+        return checkingResult;
     }
 
     public int whoWin(int HEIGHT, int WIDTH, int[][] clicked, int numb) {
@@ -127,7 +127,7 @@ public class CellsActivity extends Activity implements OnClickListener {
                 public void run() {
                     setContentView(game_over_screen);
                 }
-            }, 50);
+            }, 250);
         } else if (whoWin(HEIGHT, WIDTH, clicked, 1) == 1) {
             final Handler handler = new Handler();
             handler.postDelayed(new Runnable() {
@@ -135,7 +135,7 @@ public class CellsActivity extends Activity implements OnClickListener {
                 public void run() {
                     setContentView(krestik_win_screen);
                 }
-            }, 50);
+            }, 250);
         } else if (whoWin(HEIGHT, WIDTH, clicked, 2) == 2) {
             final Handler handler = new Handler();
             handler.postDelayed(new Runnable() {
